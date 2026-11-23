@@ -10,4 +10,7 @@ Creative Commons Attribution (www.blender.org). Other streams are public test si
 Akamai, Apple, Unified Streaming, Mux, JW Player and test-videos.co.uk. The programme guide is
 a fictional demo schedule.
 
+Posters (`posters/`) are cropped from the films' official posters (Big Buck Bunny, Sintel — via Wikimedia Commons)
+and from frames of the films (Elephants Dream, Tears of Steel). All © Blender Foundation, CC BY.
+
 Privacy policy / Política de privacidade: https://willsearch.github.io/willos-demo/privacy.html
