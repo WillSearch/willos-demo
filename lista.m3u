@@ -1,15 +1,15 @@
 #EXTM3U url-tvg="https://willsearch.github.io/willos-demo/guia.xml"
 # willOS — playlist de demonstração para a revisão da LG / demo playlist for LG review.
 # Big Buck Bunny, Elephants Dream, Sintel e Tears of Steel: (c) Blender Foundation, CC BY (www.blender.org).
-# Demais streams: sinais públicos de teste da Akamai, Apple, Unified Streaming e Mux.
+# Demais streams: sinais públicos de teste da Apple, Unified Streaming e Mux.
 
-#EXTINF:-1 tvg-id="demo.akamai" tvg-chno="1" tvg-name="Akamai Live Test" group-title="Ao vivo | Live (demo)",Akamai Live Test
-https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
-#EXTINF:-1 tvg-id="demo.unified" tvg-chno="2" tvg-name="Unified Streaming Live" group-title="Ao vivo | Live (demo)",Unified Streaming Live
+#EXTINF:-1 tvg-id="demo.unified" tvg-chno="1" tvg-name="Unified Streaming Live" tvg-logo="https://willsearch.github.io/willos-demo/logos/demo-live.png" group-title="Ao vivo | Live (demo)",Unified Streaming Live
 https://demo.unified-streaming.com/k8s/live/stable/live.isml/.m3u8
-#EXTINF:-1 tvg-id="demo.bipbop" tvg-chno="3" tvg-name="Apple BipBop (Audio & Subtitles)" group-title="Ao vivo | Live (demo)",Apple BipBop (Audio & Subtitles)
+#EXTINF:-1 tvg-id="demo.unified-scte35" tvg-chno="2" tvg-name="Unified Streaming Live 2" tvg-logo="https://willsearch.github.io/willos-demo/logos/demo-live-2.png" group-title="Ao vivo | Live (demo)",Unified Streaming Live 2
+https://demo.unified-streaming.com/k8s/live/stable/scte35.isml/.m3u8
+#EXTINF:-1 tvg-id="demo.bipbop" tvg-chno="3" tvg-name="Apple BipBop (Audio & Subtitles)" tvg-logo="https://willsearch.github.io/willos-demo/logos/bipbop.png" group-title="Ao vivo | Live (demo)",Apple BipBop (Audio & Subtitles)
 https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_16x9/bipbop_16x9_variant.m3u8
-#EXTINF:-1 tvg-id="demo.bipbop-fmp4" tvg-chno="4" tvg-name="Apple BipBop fMP4" group-title="Ao vivo | Live (demo)",Apple BipBop fMP4
+#EXTINF:-1 tvg-id="demo.bipbop-fmp4" tvg-chno="4" tvg-name="Apple BipBop fMP4" tvg-logo="https://willsearch.github.io/willos-demo/logos/bipbop-fmp4.png" group-title="Ao vivo | Live (demo)",Apple BipBop fMP4
 https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
 #EXTINF:-1 tvg-name="Big Buck Bunny (2008)" tvg-logo="https://willsearch.github.io/willos-demo/posters/big-buck-bunny.jpg" group-title="Animation Movies",Big Buck Bunny (2008)
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
